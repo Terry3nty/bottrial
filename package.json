@@ -1,0 +1,20 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "For this we will be using\r - Node.js\r - whatsapp-web.js (or Baileys if you're advanced)\r - A Whatsapp account running QR code to connect",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terry3nty/bottrial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terry3nty/bottrial/issues"
+  },
+  "homepage": "https://github.com/Terry3nty/bottrial#readme"
+}

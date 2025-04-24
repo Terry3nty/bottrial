@@ -1,0 +1,74 @@
+[0424/162213.741:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0424/162213.741:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0424/162213.742:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0424/162213.742:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0424/162213.742:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0424/162213.742:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0424/162213.742:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0424/162213.743:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0424/162213.743:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0424/162213.743:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0424/162217.480:INFO:CONSOLE(154)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yB/r/x1814x8abyZ.js (154)
+[0424/162222.226:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162322.030:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162342.105:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162402.060:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162422.106:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162426.820:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162426.821:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162426.821:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162426.821:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162426.822:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162426.822:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162428.853:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162428.853:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162429.574:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162429.574:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162429.574:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162429.575:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162429.575:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162429.575:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162429.680:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0424/162429.680:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0424/162429.680:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0424/162429.680:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0424/162429.680:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0424/162429.681:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0424/162429.681:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0424/162429.681:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0424/162429.681:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0424/162429.681:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0424/162429.852:ERROR:service_worker_storage.cc(1933)] Failed to delete the database: Database IO error
+[0424/162435.470:ERROR:quota_database.cc(929)] Could not open the quota database, resetting.
+[0424/162440.399:ERROR:quota_database.cc(929)] Could not open the quota database, resetting.
+[0424/162442.094:INFO:CONSOLE(4)] "Uncaught (in promise) Error: qrcode.generator is not a function", source: https://web.whatsapp.com/ (4)
+[0424/162443.344:ERROR:quota_database.cc(931)] Failed to reset the quota database.
+[0424/162443.344:ERROR:quota_database.cc(931)] Failed to reset the quota database.
+[0424/162502.034:INFO:CONSOLE(4)] "Uncaught (in promise) Error: window is not defined", source: https://web.whatsapp.com/ (4)
+[0424/162537.684:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162537.685:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162537.685:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162537.685:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162537.685:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162537.685:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162539.708:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162539.708:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162540.381:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162540.381:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0424/162540.381:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162540.381:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162540.381:ERROR:disk_cache.cc(205)] Unable to create cache
+[0424/162540.381:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0424/162540.512:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0424/162540.512:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0424/162540.512:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0424/162540.514:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0424/162540.696:ERROR:service_worker_storage.cc(1933)] Failed to delete the database: Database IO error
+[0424/162545.980:ERROR:quota_database.cc(929)] Could not open the quota database, resetting.
+[0424/162550.881:ERROR:quota_database.cc(929)] Could not open the quota database, resetting.
