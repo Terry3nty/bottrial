@@ -1,3 +1,5 @@
+console.log('Bot is starting ...')
+
 const { Client, LocalAuth, MessageMedia} = require ('whatsapp-web.js');
 const qrcode = require ('qrcode-terminal');
 
@@ -6,7 +8,8 @@ const client = new Client({
 });
 
 client.on('qr',(qr) => {
-    qrcode.generator(qr, {small: true });
+    console.log('Scan this qr code to log in');
+    qrcode.generate(qr, {small: true });
 });
 
 client.on('ready',() => {
@@ -22,11 +25,11 @@ client.on ('message', async msg => {
         let mention = [];
 
         for (let participant of chat.participants) {
-            const contact = await client.getContactById(participant.is_serialized);
+            const contact = await client.getContactById(participant.id_serialized);
             mentions.push(contact);
             text += `@${contact.number}`;
         }
-        chat.sendMessage (text, {mention});
+        chat.sendMessage (text, {mentions});
     }
 
     // Add person Admin shit
@@ -46,7 +49,7 @@ client.on ('message', async msg => {
     }
 
     // simple game ex
-    if (msg.body === '!gmae') {
+    if (msg.body === '!game') {
         msg.reply("Guess the answer: What has keys but can't open locks ?\n1. A piano\n2. A car\n3. A map\nReply with 1, 2, or 3.");
     }
 
