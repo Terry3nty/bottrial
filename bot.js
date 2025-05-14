@@ -4,7 +4,11 @@ const { Client, LocalAuth, MessageMedia} = require ('whatsapp-web.js');
 const qrcode = require ('qrcode-terminal');
 
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    puppeteer:{
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        headless:true
+    }
 });
 
 client.on('qr',(qr) => {
@@ -26,16 +30,16 @@ client.on ('message', async msg => {
 
         for (let participant of chat.participants) {
             const contact = await client.getContactById(participant.id_serialized);
-            mentions.push(contact);
+            mention.push(contact);
             text += `@${contact.number}`;
         }
-        chat.sendMessage (text, {mentions});
+        chat.sendMessage (text, {mention});
     }
 
     // Add person Admin shit
     if (msg.body.startsWith('!add') && chat.isGroup){
         if(chat.isGroup && msg.author === chat.owner._serialized) {
-            const number = msg.body.split('')[1];
+            const number = msg.body.split(' ')[1];
             await chat.addParticipants([`${number}@c.us`]);
         }
     }
@@ -43,7 +47,7 @@ client.on ('message', async msg => {
     // Remove Person Admin shit
     if (msg.body.startsWith('!remove') && chat.isGroup){
         if(chat.isGroup && msg.author === chat.owner._serialized) {
-            const number = msg.body.split('')[1];
+            const number = msg.body.split(' ')[1];
             await chat.removeParticipants([`${number}@c.us`]);
         }
     }

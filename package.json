@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Terry3nty/bottrial/issues"
   },
-  "homepage": "https://github.com/Terry3nty/bottrial#readme"
+  "homepage": "https://github.com/Terry3nty/bottrial#readme",
+  "dependencies": {
+    "puppeteer": "^24.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.27.0"
+  }
 }
